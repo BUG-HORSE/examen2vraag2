@@ -1,0 +1,9 @@
+name: examen-question-two
+on: push
+  runs-on: ubuntu-latest
+  steps:
+    - name: checkout repo
+      uses: actions/checkout@v3
+      
+    - run: npm install
+    - run: npm run build
