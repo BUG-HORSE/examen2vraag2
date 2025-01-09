@@ -34,7 +34,7 @@ jobs:
           sbom: true
 
       - run: npm install
-      - run: npm run build
+      - run: npm run
 
 # source: https://docs.docker.com/guides/gha/
 
