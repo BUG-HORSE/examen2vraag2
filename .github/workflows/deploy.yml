@@ -38,9 +38,6 @@ jobs:
 
 # source: https://docs.docker.com/guides/gha/
 
-# itty-bitty commit
-
-
 # # Vraag 2
 # Gegeven de TypeScript-applicatie in bijlage, maak een workflow die zorgt dat ESLint (een checker voor de kwaliteit van code) wordt uitgevoerd en dat er daarna een Docker image wordt gebouwd voor de webpagina.
 # Als je over NodeJS beschikt op je machine, heb je niets nodig dat nog niet mee in `package.json` en `package-lock.json` staat.
